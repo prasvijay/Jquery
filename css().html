@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="jquery.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $("button").click(function()
+                {
+                   alert("Background color =" + $("p").css("background-color"));
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h2>This is Heading </h2>
+        <p style = "background-color: orangered">This is a para</p>
+        <p style = "background-color: whitesmoke">This is a para</p>
+        <p style = "background-color: green">This is a para</p>
+        <button>Return background color of p </button>
+    </body>
+</html>
